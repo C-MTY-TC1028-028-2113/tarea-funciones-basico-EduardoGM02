@@ -1,5 +1,13 @@
 # Escribe aquí tus funciones...
+import builtins
 
+
+def rectangulo (a, b):
+    return a * b
+
+def volumen_prisma (x, y, z):
+    return rectangulo (x, y) * z
+    
 def main():
     #escribe tu código abajo de esta línea
     b = float(input("Dame la base: "))
